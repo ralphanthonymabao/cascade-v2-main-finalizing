@@ -68,7 +68,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/img/color_bond_fence_installation.jpg");
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 .cad-banner .cad-logo-header {
   width: 230px;
@@ -130,7 +130,6 @@
   position: fixed;
   bottom: 0;
   z-index: 99;
-  height: 100%;
   background: #293c46;
   width: 480px;
   transform: translate(-490px, 0px);
@@ -623,7 +622,7 @@ ul.cad-main-menu.cad-flex.cad-align-center {
 
 .cad-banner-container.cad-container.cad-flex.cad-justify-between.cad-align-center {
   padding-top: 238px;
-  padding-bottom: 160px;
+  padding-bottom: 70px;
 }
 
 html {
@@ -689,7 +688,7 @@ img.icon.icon-footer {
 }
 
 .cad-container.cad-flex.cad-align-center.cad-footer-flex {
-  padding: 0px 0px 80px 0px;
+  padding: 30px 0px 80px 0px;
 }
 
 a.cad-text-white {
@@ -702,7 +701,7 @@ a.cad-text-white:hover {
 }
 
 footer.footer-section.cad-padding-75 {
-  height: 46vh;
+  min-height: 46vh;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -895,7 +894,7 @@ section#faq {
   }
   .cad-banner-container.cad-container.cad-flex.cad-justify-between.cad-align-center {
     padding-top: 150px;
-    padding-bottom: 160px;
+    padding-bottom: 70px;
   }
 }
 /* Extra large devices (large desktop screens) */
@@ -1052,7 +1051,7 @@ section#faq {
     align-items: center;
   }
   footer.footer-section.cad-padding-75 {
-    height: 62vh;
+    min-height: 62vh;
   }
 }
 
@@ -1145,5 +1144,9 @@ section#faq {
   }
   .cad-form-container iframe {
     height: 783px !important;
+  }
+
+  .cad-main-nav {
+    position: unset !important;
   }
 }
